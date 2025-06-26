@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@plugin "daisyui"; /* Load DaisyUI */
+
+@plugin "daisyui" {
+  themes: all;
+}
