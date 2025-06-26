@@ -7,42 +7,19 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-# Node modules
-node_modules/
-backend/node_modules/
-frontend/node_modules/
-
-# Environment variables
-.env
-backend/.env
-frontend/.env
-
-# Build outputs
-dist/
-backend/dist/
-frontend/dist/
-
-build/
-frontend/build/
-
-# SSR (in case you use it)
-dist-ssr/
-.next/
-out/
-
-# Local environment overrides
+node_modules
+dist
+dist-ssr
 *.local
 
-# OS-specific files
-.DS_Store
-Thumbs.db
-
-# IDE/editor folders
+# Editor directories and files
 .vscode/*
 !.vscode/extensions.json
 .idea
+.DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+.env 
